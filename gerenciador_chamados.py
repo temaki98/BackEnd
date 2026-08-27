@@ -27,6 +27,6 @@ chamado2 = {
     "responsável": "Maria",
     "urgente": False
 }
-
+#aa
 lista = [chamado, chamado2]
 print(lista)  # Creating a list with the two chamado dictionaries
