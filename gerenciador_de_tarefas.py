@@ -4,13 +4,13 @@ titulo = input("Título da tarefa: ")
 prioridade = int(input("Prioridade (1 a 5): "))
 prazo_horas = float(input("Prazo estimado em horas: "))
 
-resposta_urgencia = input("A tarefa é urgente? (sim/nao): ")
+resposta_urgencia = input("A tarefa é urgente? (sim/nao): ").strip().lower()
 urgente = resposta_urgencia == "sim"
 
 fator_esforco = 1.2
 esforco_estimado = prazo_horas * fator_esforco
 
-prioridade_alta = prioridade == alta
+prioridade_alta = prioridade >= 4
 prioritaria = prioridade_alta or urgente
 
 
