@@ -8,3 +8,6 @@
 # git checkout <branch> ou git switch <branch>: Muda de um ramo para outro.
 # git merge <branch>: Junta o código de outro ramo no seu ramo atual
 # git push origin <branch>: Solicita o push para o repositório do administrador.
+# git log --oneline --graph --decorate: Mostra o histórico de commits formatado em uma única linha (gráfico limpo no terminal)
+# git status -s: Mostra o status atual dos arquivos de forma compactada e direta
+# git diff: Mostra exatamente as linhas que foram alteradas no código atual antes do commit
